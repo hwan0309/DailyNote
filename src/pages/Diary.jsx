@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header";
 import Button from "../components/Button";
+import Viewer from "../components/VIewer";
 
 const Diary = () => {
   const params = useParams();
@@ -12,6 +13,7 @@ const Diary = () => {
         leftChild={<Button text={"< 뒤로 가기"} />}
         rightChild={<Button text={"수정하기"} />}
       />
+      <Viewer />
     </div>
   );
 };
