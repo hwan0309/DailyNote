@@ -34,29 +34,33 @@
 
 ## 📂 폴더 구조 (Folder Structure)
 
-강의의 아키텍처를 준수하여 유지보수가 용이하도록 설계했습니다.
-src ├── 📂 components # 재사용 가능한 UI 컴포넌트
-  │ ├── Button.jsx # 공통 버튼 (긍정, 부정, 기본)
-  │ ├── Header.jsx # 페이지 상단 헤더 (날짜 표시, 네비게이션)
-  │ ├── Editor.jsx # 알림장 작성 및 수정 폼
-  │ ├── NoteItem.jsx # 알림장 리스트의 개별 아이템 
-  │ ├── NoteList.jsx # 알림장 리스트 및 정렬 필터 
-  │ └── EmotionItem.jsx # 아이 기분 선택 이모티콘 컴포넌트 
-  │ ├── 📂 pages # 페이지 라우팅 단위 
-  │ ├── Home.jsx # 메인 페이지 (월별 리스트)
-  │ ├── New.jsx # 새 알림장 작성 페이지
-  │ ├── Edit.jsx # 알림장 수정 페이지 
-  │ └── Note.jsx # 알림장 상세 보기 페이지 
-  │ ├── 📂 hooks # 커스텀 훅 
-  │ └── useNote.jsx # 알림장 데이터 CRUD 로직 (useDiary 응용)
-  │ ├── 📂 util # 유틸리티 함수 및 상수 
-  │ ├── date.js # 날짜 변환 및 포맷팅 함수 
-  │ ├── emotion.js # 기분 아이콘 이미지 및 ID 관리
-  │ └── constants.js # 공통 상수 관리 
-  │ ├── App.jsx # 라우팅 설정 및 Context Provider 
-  └── main.jsx # Entry Point
-
-
+```text
+📦 src
+ ├── 📂 components    # 재사용 가능한 UI 컴포넌트
+ │    ├── Button.jsx         # 공통 버튼 (긍정, 부정, 기본)
+ │    ├── Header.jsx         # 페이지 상단 헤더 (날짜 표시, 네비게이션)
+ │    ├── Editor.jsx         # 알림장 작성 및 수정 폼
+ │    ├── NoteItem.jsx       # 알림장 리스트의 개별 아이템
+ │    ├── NoteList.jsx       # 알림장 리스트 및 정렬 필터
+ │    └── EmotionItem.jsx    # 아이 기분 선택 이모티콘 컴포넌트
+ │
+ ├── 📂 pages         # 페이지 라우팅 단위
+ │    ├── Home.jsx           # 메인 페이지 (월별 리스트)
+ │    ├── New.jsx            # 새 알림장 작성 페이지
+ │    ├── Edit.jsx           # 알림장 수정 페이지
+ │    └── Note.jsx           # 알림장 상세 보기 페이지
+ │
+ ├── 📂 hooks         # 커스텀 훅
+ │    └── useNote.jsx        # 알림장 데이터 CRUD 로직 (useDiary 응용)
+ │
+ ├── 📂 util          # 유틸리티 함수 및 상수
+ │    ├── date.js            # 날짜 변환 및 포맷팅 함수
+ │    ├── emotion.js         # 기분 아이콘 이미지 및 ID 관리
+ │    └── constants.js       # 공통 상수 관리
+ │
+ ├── App.jsx          # 라우팅 설정 및 Context Provider
+ └── main.jsx         # Entry Point
+```
 
   1. **레포지토리 클론**
    ```bash
@@ -74,7 +78,7 @@ src ├── 📂 components # 재사용 가능한 UI 컴포넌트
 npm run dev
  ```
 
-
+## 💡 트러블 슈팅 & 배운 점
  Context API 최적화: Provider를 분리하여 불필요한 리렌더링을 방지하는 방법을 학습했습니다.
 
 날짜 처리: JavaScript Date 객체를 다루면서 월별 필터링 로직을 구현하는 데 어려움이 있었으나, new Date()의 특성을 이해하고 해결했습니다.
