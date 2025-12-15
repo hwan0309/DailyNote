@@ -1,5 +1,6 @@
 # 키즈노트
 
+<img src="./assets/thumbnail.png" alt="메인화면" width="400" />
 > 어린이집/유치원 알림장 서비스입니다.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -7,6 +8,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 
 ## 📖 프로젝트 소개
+
 부모님과 선생님이 아이의 하루를 기록하고 소통할 수 있는 **모바일 웹 기반의 키즈노트**입니다.
 기존 강의의 '감정 일기장' 로직을 활용하여, 아이의 기분 상태와 활동 내용을 날짜별로 기록하고 관리할 수 있도록 커스터마이징했습니다.
 
@@ -24,11 +26,11 @@
 
 ## 🛠 기술 스택 (Tech Stack)
 
-* **Frontend**: React.js, Vite
-* **Routing**: React Router DOM (v6)
-* **State Management**: React Context API, useReducer
-* **Styling**: CSS (Module)
-* **Deployment**: Vercel 
+- **Frontend**: React.js, Vite
+- **Routing**: React Router DOM (v6)
+- **State Management**: React Context API, useReducer
+- **Styling**: CSS (Module)
+- **Deployment**: Vercel
 
 ---
 
@@ -62,27 +64,31 @@
  └── main.jsx         # Entry Point
 ```
 
-  1. **레포지토리 클론**
-   ```bash
-   git clone [https://github.com/사용자명/프로젝트명.git](https://github.com/사용자명/프로젝트명.git)
-   cd 프로젝트명
-   ```
+## 🔗 배포 주소
 
-   ```bash
-  npm install
-  # 또는
-  yarn install
-  ```
+> **바로가기:** [emotion-diary-sage-iota.vercel.app]
 
- ```bash
+**레포지토리 클론**
+
+```bash
+git clone [https://github.com/사용자명/프로젝트명.git](https://github.com/사용자명/프로젝트명.git)
+cd 프로젝트명
+```
+
+```bash
+npm install
+# 또는
+yarn install
+```
+
+```bash
 npm run dev
- ```
+```
 
 ## 💡 트러블 슈팅 & 배운 점
- Context API 최적화: Provider를 분리하여 불필요한 리렌더링을 방지하는 방법을 학습했습니다.
+
+Context API 최적화: Provider를 분리하여 불필요한 리렌더링을 방지하는 방법을 학습했습니다.
 
 날짜 처리: JavaScript Date 객체를 다루면서 월별 필터링 로직을 구현하는 데 어려움이 있었으나, new Date()의 특성을 이해하고 해결했습니다.
 
 LocalStorage 동기화: useEffect를 사용하여 상태가 변경될 때마다 로컬 스토리지에 데이터를 저장하는 로직을 구현했습니다.
-
-
