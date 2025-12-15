@@ -1,7 +1,10 @@
-# 키즈노트
+<div align="center">
+
+# 👶 키즈노트 (Kids Note)
 
 <img src="./src/assets/thumbnail.png" alt="메인화면" width="400" />
-> 어린이집/유치원 알림장 서비스입니다.
+
+<br/>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
@@ -64,9 +67,13 @@
  └── main.jsx         # Entry Point
 ```
 
+---
+
 ## 🔗 배포 주소
 
 > **바로가기:** [https://emotion-diary-hwan0309-yoonjihwans-projects-b86a7ff5.vercel.app]
+
+---
 
 **레포지토리 클론**
 
@@ -75,15 +82,21 @@ git clone [https://github.com/사용자명/프로젝트명.git](https://github.c
 cd 프로젝트명
 ```
 
+**패키지 설치**
+
 ```bash
 npm install
 # 또는
 yarn install
 ```
 
+**실행**
+
 ```bash
 npm run dev
 ```
+
+---
 
 ## 💡 트러블 슈팅 & 배운 점
 
