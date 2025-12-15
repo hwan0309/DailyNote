@@ -1,6 +1,6 @@
 # 키즈노트
 
-<img src="./assets/thumbnail.png" alt="메인화면" width="400" />
+<img src="./src/assets/thumbnail.png" alt="메인화면" width="400" />
 > 어린이집/유치원 알림장 서비스입니다.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -66,7 +66,7 @@
 
 ## 🔗 배포 주소
 
-> **바로가기:** [emotion-diary-sage-iota.vercel.app]
+> **바로가기:** [https://emotion-diary-hwan0309-yoonjihwans-projects-b86a7ff5.vercel.app]
 
 **레포지토리 클론**
 
