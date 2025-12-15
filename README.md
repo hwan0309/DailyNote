@@ -1,10 +1,6 @@
-<div align="center">
-
-# 👶 키즈노트 (Kids Note)
+# 키즈노트 (Kids Note)
 
 <img src="./src/assets/thumbnail.png" alt="메인화면" width="400" />
-
-</div>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
